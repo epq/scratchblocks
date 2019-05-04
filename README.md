@@ -50,6 +50,12 @@ It uses `pre.blocks` by default.
 scratchblocks.renderMatching('pre.blocks');
 ```
 
+If you want to use Scratch 3.0 styles, add the `style` argument.
+
+```js
+scratchblocks.renderMatching('pre.blocks', {style: 'scratch3'});
+```
+
 ### Inline blocks
 
 To use blocks inside a paragraph...
